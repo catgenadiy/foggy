@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="groundfog"
+version="2.0.0"
+displayName="Ground Fog"
+authors="chat"
+description='''
+Наземный туман с привязкой к рельефу: стелется в низинах и над водой
+на рассвете и ночью. Команда /weather fog включает туман принудительно,
+/weather clear — разгоняет.
+'''
+
+[[dependencies.groundfog]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.groundfog]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
