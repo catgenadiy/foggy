@@ -76,7 +76,7 @@ Volumetric fog с привязкой к рельефу: полноэкранны
 
 ## Конфиг (`config/groundfog-client.toml`)
 
-Основные секции и ручки:
+Основные секции:
 
 - `render` — `renderMode` (analytic/raymarch), `density` (экстинкция на блок,
   рабочий диапазон 0.1..0.5; для «гуще» крутите не её, а `thickness`),
