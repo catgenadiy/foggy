@@ -12,7 +12,7 @@ Volumetric fog с привязкой к рельефу: полноэкранны
 
 ## Стек
 
-- Minecraft **1.21.1**
+- **Minecraft** 1.21.1
 - **NeoForge** 21.1.244
 - **ModDevGradle** 1.0.23, Gradle 8.10.2, Java 21
 
